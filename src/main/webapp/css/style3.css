@@ -1,0 +1,280 @@
+a {
+    text-decoration: none !important;
+}
+
+
+.bg-black {
+    background-color: black !important;
+}
+
+.bg-colorful {
+    background: rgba(239, 50, 217, 0.74); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgb(255 250 80 / 55%), rgb(96 253 87 / 53%)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgb(255 250 80 / 55%), rgb(96 253 87 / 53%)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.bg-colorful2 {
+    background: rgba(239, 50, 217, 0.74); /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, rgba(120, 238, 255, 0.27), rgba(245, 221, 114, 0.16)); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, rgba(119, 255, 241, 0.28), rgba(255, 248, 120, 0.17)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.border-colorful {
+    background: linear-gradient(to top, #CFFFFEFF, #F9F7D9FF, #FCE2CEFF, #FFC1F3FF);
+}
+
+.btn-centered {
+    display: block !important;
+    margin: 0 auto;
+}
+
+.cart-btn {
+    position: relative;
+
+}
+.cart-info {
+    display: none;
+    position: absolute;
+    top: 3.4rem;
+    right: 0;
+    background-color: white;
+    width: 26rem;
+    z-index: 10;
+    box-shadow: 0 0 7px 4px #747474;
+    border-radius: .4rem;
+}
+.cart-info::after {
+    content: "";
+    position: absolute;
+    top: -8px;
+    right: 15px;
+    border: 0.5rem solid;
+    border-color: white white transparent transparent;
+    transform: rotate(-45deg);
+}
+.cart-info::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: 0;
+    z-index: 2;
+    background: transparent;
+    height: 1rem;
+    width: 6rem;
+}
+.cart-btn:hover .cart-info {
+    display: block;
+}
+.cart-items {
+    padding: .5rem;
+    border-bottom: 1px solid rgba(183, 183, 183, 0.7);
+}
+.cart-items:hover {
+    background-color: rgb(255 114 168 / 21%);
+}
+.container + .container{
+    margin-top: 1rem ;
+}
+.col-gap-1{
+    column-gap: 1rem;
+}
+.containers {
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 2rem 1.3rem;
+    position: relative;
+}
+.content_banner {
+    border: 8px solid transparent;
+    overflow: hidden;
+    border-radius: 2.5rem;
+}
+
+.content_top:nth-child(n+1) .category-banner {
+    flex-direction: row;
+}
+
+.content_top:nth-child(3n+1) .category-banner {
+    flex-direction: row-reverse;
+}
+
+.d-flex-center {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+.flex-2 {
+    flex: 2 !important;
+}
+
+.fz-2rem {
+    font-size: 2rem !important;
+}
+
+.h-6rem {
+    height: 6rem !important;
+}
+
+.h-21 {
+    height: 21rem !important;
+}
+
+.h-15 {
+    height: 15rem !important;
+}
+
+.h-inherit {
+    height: inherit !important;
+}
+
+.line-clamp-1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.moveCarousel {
+    position: relative;
+}
+
+.left-carousel, .right-carousel {
+    position: absolute;
+    background-color: #80808054;
+    font-size: 2rem;
+    width: 3.1rem !important;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: .4;
+    top: 45%;
+    text-align: center;
+}
+
+.left-carousel:hover, .right-carousel:hover {
+    opacity: 1;
+}
+
+.right-carousel {
+    right: -.5rem;
+}
+
+.left-carousel {
+    left: -.5rem;
+}
+
+
+.no-wrap {
+    white-space: nowrap !important;
+}
+
+.obj-center-cover {
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
+.p-0-05rem {
+    padding: 0 .5rem;
+}
+
+.p-0-1rem {
+    padding: 0 1rem;
+}
+
+.p-3rem-0 {
+    padding: 3rem 0 !important;
+}
+
+.pl-1rem {
+    padding-left: 1rem;
+}
+
+.pl-2rem {
+    padding-left: 2rem !important;
+}
+
+.pl-4rem {
+    padding-left: 4rem !important;
+}
+.pl-8rem {
+    padding-left: 8rem !important;
+}
+
+.row-gap-1 {
+    row-gap: 1rem !important;
+}
+
+.row-gap-15 {
+    row-gap: 1.5rem;
+}
+
+.slide-image {
+    object-fit: fill;
+    object-position: center;
+}
+
+.tag-hover:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(215, 111, 255, 0.77)), to(rgba(111, 58, 255, 0.71)));
+    color: white;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.text-purple {
+    color: #b31bff;
+}
+
+
+.visibility-visible-item:hover .visibility-hidden {
+    opacity: 1;
+}
+.visibility-hidden {
+    opacity: 0.15;
+    transition: opacity 1s linear;
+}
+
+.w-35 {
+    width: 35% !important;
+}
+
+.w-65 {
+    width: 65% !important;
+}
+
+
+/*CSS for scrollbar*/
+::-webkit-scrollbar {
+    width: 1rem;
+}
+
+/* Track - thanh cuon doc phan trong duoi thanh cuon doc */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white;
+}
+
+::-webkit-scrollbar-track:hover {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle - css cho thanh cuon*/
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top, #00fffa, #ffef00, #ff6f00, #ff00ce);
+    border-radius: 10px;
+}
+
+/*End Css scrollbar*/
