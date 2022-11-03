@@ -3,7 +3,7 @@
 
 <!DOCTYPE HTML>
 <head>
-    <title>Store Website</title>
+    <title>My Store Website</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href="${pageContext.request.contextPath}/css/styled.css" rel="stylesheet" type="text/css" media="all"/>
