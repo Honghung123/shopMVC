@@ -2,7 +2,7 @@
 Project shop with JSP Servlet
 using Boostrap, JSTL , JQuery , API , mo hinh DAO
 # Install
-0.IDE: Intellij 
+0.IDE: Intellij Idea
 
 1.Server: Tomcat 9.0.65
 
